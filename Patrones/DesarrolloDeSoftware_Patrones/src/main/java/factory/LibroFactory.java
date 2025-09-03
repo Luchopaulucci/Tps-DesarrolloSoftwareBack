@@ -1,7 +1,7 @@
 package main.java.factory;
 
-class LogisticaLibro {
-    static Libro crearLibro(String tipoLibro) {
+public class LibroFactory {
+    public static Libro crearLibro(String tipoLibro) {
         if (tipoLibro.equals("fisico")) {
             System.out.println("Se creo un libro Fisico");
             return new LibroFisico();

@@ -22,6 +22,6 @@ public class Prestamo implements Cloneable{
     }
 
     public void mostrar() {
-        System.out.println("Prestamo libro=" + libro + ", usuario=" + usuario + ", inicio=" + fechaInicio + ", fin=" + fechaFin );
+        System.out.println("Prestamo libro: " + libro + ", Usuario: " + usuario + ", Inicio Prestamo: "  + fechaInicio + ", Fin Prestamo: " + fechaFin );
     }
 }
